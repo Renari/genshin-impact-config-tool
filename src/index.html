@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Genshin Impact Config Tool</title>
+  </head>
+  <body>
+    <div id="config">
+      <div id="column1">
+        <h1>Language</h1>
+        <select id="language"></select>
+        <h1>Voice</h1>
+        <select id="voice"></select>
+      </div>
+      <div id="column2">
+        <h1>Global Volume</h1>
+        <div class="range-slider">
+          <input class="range-slider__range" type="range" min="0" max="10" step="1" id="globalVolume">
+          <span class="range-slider__value">0</span>
+        </div>
+        <h1>SFX Volume</h1>
+        <div class="range-slider">
+          <input class="range-slider__range" type="range" min="0" max="10" step="1" id="sfxVolume">
+          <span class="range-slider__value">0</span>
+        </div>
+        <h1>Music Volume</h1>
+        <div class="range-slider">
+          <input class="range-slider__range" type="range" min="0" max="10" step="1" id="musicVolume">
+          <span class="range-slider__value">0</span>
+        </div>
+        <h1>Voice Volume</h1>
+        <div class="range-slider">
+          <input class="range-slider__range" type="range" min="0" max="10" step="1" id="voiceVolume">
+          <span class="range-slider__value">0</span>
+        </div>
+        <div id="motionblurblock"><h1>Motion Blur</h1><label><input id="motionblur" type="checkbox"><span class="slider"></span></label></div>
+      </div>
+    </div>
+  </body>
+</html>
