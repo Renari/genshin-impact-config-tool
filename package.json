@@ -13,18 +13,21 @@
   },
   "keywords": [],
   "author": {
-    "name": "Arimil",
+    "name": "Genshin Impact",
     "email": "renari@arimil.com"
   },
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "ChickenImpact.ico"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "genshin_impact_config_tool"
+            "name": "genshin_impact_config_tool",
+            "iconUrl": "https://raw.githubusercontent.com/Renari/genshin-impact-config-tool/master/ChickenImpact.ico"
           }
         },
         {
