@@ -1,1 +1,1 @@
-genshin-impact-config-tool
+![genshin-impact-config-tool](https://i.imgur.com/DuCpsAb.png)
